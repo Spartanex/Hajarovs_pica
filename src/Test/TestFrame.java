@@ -50,5 +50,9 @@ public class TestFrame extends JFrame {
 		JLabel lblNewLabel = new JLabel("Something....");
 		lblNewLabel.setBounds(187, 103, 96, 31);
 		contentPane.add(lblNewLabel);
+		
+		JLabel lblNewLabel_1 = new JLabel("One more");
+		lblNewLabel_1.setBounds(90, 111, 75, 14);
+		contentPane.add(lblNewLabel_1);
 	}
 }
