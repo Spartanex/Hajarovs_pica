@@ -8,6 +8,7 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
+import javax.swing.JLabel;
 
 public class TestFrame extends JFrame {
 
@@ -45,6 +46,9 @@ public class TestFrame extends JFrame {
 		JButton btnNewButton = new JButton("New button");
 		btnNewButton.setBounds(164, 26, 89, 23);
 		contentPane.add(btnNewButton);
+		
+		JLabel lblNewLabel = new JLabel("Something....");
+		lblNewLabel.setBounds(187, 103, 96, 31);
+		contentPane.add(lblNewLabel);
 	}
-
 }
